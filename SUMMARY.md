@@ -7,7 +7,7 @@
   * [STALK는 무엇인가?](docs/1-overview/stalk.md)
     * [유사 서비스 사례](docs/1-overview/stalk-practices.md)
   * [향후 발전 방향](docs/1-overview/future.md)
-* [2. XPUSH](docs/2-xpush/index.md)
+* [2. XPUSH Live Chat Platform](docs/2-xpush/index.md)
   * [플랫폼 구성 요소](docs/2-xpush/server.md)
     * [Session Server](docs/2-xpush/server-session.md)
     * [Channel Server](docs/2-xpush/server-channel.md)
