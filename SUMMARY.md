@@ -22,7 +22,7 @@
     * [Javascript Library](docs/2-xpush/library-javascript.md)
     * [Android Library](docs/2-xpush/library-android.md)
     * [IOS Library](docs/2-xpush/library-ios.md)
-* [3. STALK](docs/3-stalk/index.md)
+* [3. STALK Server](docs/3-stalk/index.md)
   * [서버 구성 요소](docs/3-stalk/server.md)
     * [Admin Server](docs/3-stalk/server-admin.md)
     * [Chat Widget](docs/3-stalk/server-widget.md)
