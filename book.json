@@ -1,7 +1,5 @@
 {
-    "plugins": [
-        "autocover"
-    ],
+    "plugins": ["autocover"],
     "pluginsConfig": {
         "autocover": {
             {
