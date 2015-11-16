@@ -2,7 +2,7 @@
     "plugins": ["autocover"],
     "pluginsConfig": {
         "autocover": {
-            "title": "Realtime Messaging Platform - XPUSH & STALK",
+            "title": "Realtime Messaging Platform \"XPUSH & STALK\"",
             "author": "XPUSH development team",
             "font": {
                 "size": null,
