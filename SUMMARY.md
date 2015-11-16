@@ -1,6 +1,6 @@
 # Summary
 
-* [들어가며](docs/1-overview/index.md)
+* [Overview](docs/1-overview/index.md)
   * [실시간 서비스 플랫폼](docs/1-overview/realtime-platform.md)
   * [XPUSH는 무엇인가?](docs/1-overview/xpush.md)
     * [유사 플랫폼 사례](docs/1-overview/xpush-practices.md)
