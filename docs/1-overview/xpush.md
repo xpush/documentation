@@ -32,4 +32,4 @@ XPUSH는 무엇인가?
 `Session 서버`는 사용자 접속을 위한 인증과 사용자 관리 및 부하 분산을 위한 서버 분배 할당을 처리합니다. 
 그리고 `Channel 서버`는 실제로 데이터 송수신을 하기 위해 Client 가 연결을 유지하는 서버 입니다. 
 
-![Infra Architecture](images/xpush-infra.png)
+![Infra Architecture](./images/xpush-infra.png)
