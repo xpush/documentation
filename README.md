@@ -26,4 +26,4 @@ Introduction
 
 본 문서는 gitbook 으로 작성되어 있으며 인터넷을 통해 공개 되어 있으며, github 에 소스를 공유하고 있습니다.
  - [https://stalk.gitbooks.io/documentation/content/](https://stalk.gitbooks.io/documentation/content/)
- - [https://github.com/JohnKim/gitbook-stalk](https://github.com/JohnKim/gitbook-stalk)
+ - [https://github.com/xpush/documentation](https://github.com/xpush/documentation)
