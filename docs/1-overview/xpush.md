@@ -3,7 +3,7 @@ XPUSH는 무엇인가?
 
 
 <p align="center">
-  <img src="../../resources/images/logo_xpush.png" width="350px"/>
+  <img src="../../resources/images/logo_xpush.png" width="300px"/>
 </p>
 
 
@@ -15,6 +15,7 @@ XPUSH는 무엇인가?
 
 `XPUSH`는 `node.js`로 개발되었으며, `socket.io` 모듈로 실시간 메시지 통신을 가능하도록 구현하였습니다. 
 그리고 접속 사용자 및 장치 관리, 접속 인증 및 송/수신 데이터 저장 등의 기능이 구현되어 있으므로, 이를 기반으로 다양한 실시간 서비스를 개발할 수 있도록 되어 있습니다
+
 
 <p align="center">
   <img src="./images/xpush_concept.png" width="700px"/>
@@ -32,4 +33,10 @@ XPUSH는 무엇인가?
 `Session 서버`는 사용자 접속을 위한 인증과 사용자 관리 및 부하 분산을 위한 서버 분배 할당을 처리합니다. 
 그리고 `Channel 서버`는 실제로 데이터 송수신을 하기 위해 Client 가 연결을 유지하는 서버 입니다. 
 
+
 ![Infra Architecture](./images/xpush_infra.png)
+
+
+Client 는 실시간 메시지 통신을 하기 위하여, 가장 먼저 `Session 서버`를 호출하여 접속할 `Channel 서버`를 할당 받게 됩니다. 실제로 메시지를 송/수신하게될 서버는 `Channel 서버`이므로, `Session 서버`에 비하여 상대적으로 접속 Client 수에 비례하여 Scala-out 되어야 할 것입니다. 
+
+보다 자세한 설명은 [2. XPUSH Live Chat Platform](docs/2-xpush/index.md)에서 다루게 될 것입니다.
