@@ -1,7 +1,7 @@
 서버 설치
 =============
 
-XPUSH를 사용하기 위해서는 [nodejs](http://nodejs.org/), [zookeeper](http://zookeeper.apache.org/), [redis](http://redis.io/) 의 설치가 필요합니다.
+XPUSH를 사용하기 위해서는 [nodejs](http://nodejs.org/), [zookeeper](http://zookeeper.apache.org/), [redis](http://redis.io/), [mongoDB]()의 설치가 필요합니다.
 
 
 본 가이드 문서는 64bit linux( ubuntu 14.04 )에서 설치하는 방법을 다루고 있습니다. 여러분의 환경에 맞는 설치가 필요합니다.
@@ -51,21 +51,35 @@ XPUSH를 사용하기 위해서는 [nodejs](http://nodejs.org/), [zookeeper](htt
 	cd redis/src
 	make
 	./redis-server
+	
+### mongoDB
 
+아래는 mongoDB 3.0.7를 설치하고 실행하는 코드입니다.
+
+[mongoDB installation](https://docs.mongodb.org/manual/installation/)를 참조하여 mongo db를 설치하고 실행합니다.
+
+	cd $HOME/xpush
+	wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.0.7.tgz
+	tar xvf mongodb-linux-x86_64-ubuntu1404-3.0.7.tgz
+	mv mongodb-linux-x86_64-ubuntu1404-3.0.7 mongodb
+	cd mongodb
+	mkdir data
+	bin/mongod --dbpath=./data
+	
 ## 2. XPUSH 설치
 
 ### github에서 설치
 
 	cd $HOME/xpush
-	git clone https://github.com/xpush/node-xpush.git
-	cd node-xpush
+	git clone https://github.com/xpush/xpush-chat.git
+	cd xpush-chat
 	npm install
 
 ### session server 실행
 
-	node examples/sever-session.js
+	node ~/xpush/xpush-chat/bin/session-server --port 8000
 
 ### channel server 실행
 
-	node examples/sever-channel.js
+	node ~/xpush/xpush-chat/bin/channel-server --port 8080
 
