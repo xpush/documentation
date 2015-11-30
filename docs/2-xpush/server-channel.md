@@ -79,7 +79,7 @@ Group Id 에서 입력받은 user 를 친구에서 삭제한다.
 
 ##### Request
 ```js
-{"GR":"user01", "U":"user01"]"}
+{"GR":"user01", "U":"user01"}
 ```
 
 ##### Response
