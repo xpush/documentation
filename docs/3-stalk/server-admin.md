@@ -7,8 +7,6 @@ STALK 서비스를 사용하는 운영자들을 위한 Web Application 입니다
 
 로그인 이후에는 Dashboard 화면과 Chat 화면으로 구성되어 있습니다.
 
-소스는 [여기](https://github.com/xpush/io.stalk.admin)에 공개되어 있습니다.
-
 ## Dashboard
 
 Dashboard 화면은 Realtime Manager와 Site 메뉴로 구성되어 있습니다.
