@@ -1,8 +1,6 @@
 XPUSH 실행
 ======================
 
-
-
 ## 설정
 
 xpush를 실행할 때 사용할 option을 설정합니다.
@@ -41,5 +39,5 @@ node ~/xpush/xpush-chat/bin/session-server --port 8000
 
 ### channel server 실행
 ```node
-	node ~/xpush/xpush-chat/bin/channel-server --port 8080
+node ~/xpush/xpush-chat/bin/channel-server --port 8080
 ```
