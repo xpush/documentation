@@ -74,12 +74,3 @@ XPUSH를 사용하기 위해서는 [nodejs](http://nodejs.org/), [zookeeper](htt
 	git clone https://github.com/xpush/xpush-chat.git
 	cd xpush-chat
 	npm install
-
-### session server 실행
-
-	node ~/xpush/xpush-chat/bin/session-server --port 8000
-
-### channel server 실행
-
-	node ~/xpush/xpush-chat/bin/channel-server --port 8080
-
