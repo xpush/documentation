@@ -5,6 +5,8 @@ Admin 서버를 실행하기 위해서는 필요한 몇가지 정보를 설정�
 
 ## 설정
 
+host : 설치한 서버의 public ip나 domain을 입력합니다.
+
 mongo: 사용할 mongoDB의 주소를 표기합니다.
 
 xpush: 직접 설치한 XPUSH 서버를 사용하려고 한다면, 설치한 URL 정보를 입력합니다.
@@ -18,6 +20,7 @@ xpush: 직접 설치한 XPUSH 서버를 사용하려고 한다면, 설치한 URL
 ```js
 module.exports = {
   // MongoDB connection options
+  host: 'admin.stalk.io',
   mongo: {
     uri: 'mongodb://10.0.5.171/stalk-dev'
   },
