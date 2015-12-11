@@ -22,6 +22,10 @@ ios에서 xpush 를 사용하기 위한 library이며, Cocoapods에 등재될 �
    > Xpush.setup("http://yourdomain", appId: {{appId}} );
 
 #### 사용
+  * import Framework 
+  
+  사용하려는 파일안에서 다음과 같은 코드를 삽입 한뒤에 사용할 수 있다.
+  >import XpushFramework
 
   * Signup
   >        XPushAPI().signup( {{id}} , passwd: {{pass}} , cb: { status, data in
